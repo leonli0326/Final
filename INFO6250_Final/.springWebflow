@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webflow-project-description>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.5.0.201404011509-RELEASE]]></pluginVersion>
+	<configs>
+		<config>
+			<file>webFlow.xml</file>
+			<name><![CDATA[webFlow]]></name>
+		</config>
+	</configs>
+</webflow-project-description>

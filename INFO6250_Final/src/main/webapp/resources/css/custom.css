@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+body {
+  min-height: 1000px;
+  padding-top: 70px;
+  background-color: #F7F7F7;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+.whiteText {
+	color: WHITE
+}
+.navbar-default{
+	background-image: linear-gradient(to bottom, #eeeeee 0, #c9c9c9 100%);
+}
+.navbar-brand{
+	padding: 5px 15px;
+}

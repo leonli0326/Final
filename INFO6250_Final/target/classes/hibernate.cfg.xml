@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <property name="hibernate.connection.driver_class">org.gjt.mm.mysql.Driver</property>
+  <property name="hibernate.connection.password">root</property>
+  <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/amazon</property>
+  <property name="hibernate.connection.username">root</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+  <property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>
+  <property name="hibernate.show_sql">false</property>
+  <property name="jadira.usertype.autoRegisterUserTypes">true</property>
+  <property name="hibernate.search.default.directory_provider">filesystem</property>
+  <property name="hibernate.search.default.indexBase">/INFO6250_Final/src/main/webapp/resources/indexes</property>
+  <property name="hibernate.cache.use_second_level_cache">true</property>
+  <property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.SingletonEhCacheRegionFactory</property>
+  <property name="hibernate.cache.use_query_cache">true</property>
+  <mapping class="com.amazonnext.spring.pojo.User"/>
+  <mapping class="com.amazonnext.spring.pojo.Role"/>
+  <mapping class="com.amazonnext.spring.pojo.Product"/>
+  <mapping class="com.amazonnext.spring.pojo.Stock"/>
+  <mapping class="com.amazonnext.spring.pojo.Location"/>
+  <mapping class="com.amazonnext.spring.pojo.Tag"/>
+  <mapping class="com.amazonnext.spring.pojo.DeliveryPackage"/>
+  <mapping class="com.amazonnext.spring.pojo.Enterprise"/>
+  <mapping class="com.amazonnext.spring.pojo.Order"/>
+  <mapping class="com.amazonnext.spring.pojo.OrderItem"/>
+  <mapping class="com.amazonnext.spring.pojo.UserAddress"/>
+  <mapping class="com.amazonnext.spring.pojo.UserPaymentMethod"/>
+  <mapping class="com.amazonnext.spring.pojo.Review"/>
+  <mapping class="com.amazonnext.spring.pojo.ImageLink"/>
+ </session-factory>
+</hibernate-configuration>
